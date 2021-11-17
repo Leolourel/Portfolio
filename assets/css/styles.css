@@ -931,7 +931,8 @@ img{
         justify-content: center;
     }
     .qualification__button{
-        margin-left: 0 var(--mb-1);
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
     .qualification__sections{
         grid-template-columns: .5fr;
