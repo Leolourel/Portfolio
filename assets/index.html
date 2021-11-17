@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
 		<!-- SWIPER CSS -->
-		<link rel="stylesheet" href="">
+		<link rel="stylesheet" href="./css/swiper-bundle.min.css">
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="./css/styles.css">
@@ -25,7 +25,7 @@
 				<div class="nav__menu" id="nav-menu">
 					<ul class="nav__list grid">
 						<li class="nav__item">
-							<a href="#home" class="nav__link">
+							<a href="#home" class="nav__link active-link">
 								<i class="uil uil-estate nav__icon"></i> Accueil
 							</a>
 						</li>
@@ -39,11 +39,6 @@
 								<i class="uil uil-file-alt nav__icon"></i> Skills
 							</a>
 						</li>
-<!--						<li class="nav__item">-->
-<!--							<a href="#services" class="nav__link">-->
-<!--								<i class="uil uil-briefcase-alt nav__icon"></i> Services-->
-<!--							</a>-->
-<!--						</li>-->
 						<li class="nav__item">
 							<a href="#portfolio" class="nav__link">
 								<i class="uil uil-scenery nav__icon"></i> Portfolio
@@ -59,6 +54,9 @@
 				</div>
 				
 				<div class="nav__btns">
+				<!--Theme Change Button -->
+					<i class="uil uil-moon change-theme" id="theme-button"></i>
+					
 					<div class="nav__toggle" id="nav-toggle">
 						<i class="uil uil-apps"></i>
 					</div>
@@ -103,9 +101,9 @@
 						</div>
 						<div class="home__data">
 							<h1 class="home__title">Bonjour, je suis Léo</h1>
-							<h3 class="home__subtile">Developpeur Frontend</h3>
+							<h3 class="home__subtitle">Developpeur Frontend</h3>
 <!--							@todo rediger la description-->
-							<p class="home__description"> Bref Description à rédiger sur experience et recherche emploi reoajgpjerifzeiocjvaergvjeriaeacajerpviejiroejvoierajvjeverovar</p>
+							<p class="home__description"> Bref Description à rédiger sur experience et recherche emploi reoajgp jerifze iocjva erg vje ria eac ajer pvie  jiro ej voier ajv ev ov ar</p>
 							<a href="#contact" class="button button--flex">
 								Contact <i class="uil uil-message button__icon"></i>
 							</a>
@@ -124,7 +122,7 @@
 			<!--==================== ABOUT ====================-->
 			<section class="about section" id="about">
 				<h2 class="section__title">A propos de moi</h2>
-				<span class="section__subtile">Mon introduction</span>
+				<span class="section__subtitle">Mon introduction</span>
 				
 				<div class="about__container container grid">
 					<img src="./img/Leocvimg.jpg" alt="" class="about__img">
@@ -163,10 +161,9 @@
 			<!--==================== SKILLS ====================-->
 			<section class="skills section" id="skills">
 				<h2 class="section__title">Skills</h2>
-				<span class="section__subtile">Mes compétences</span>
+				<span class="section__subtitle">Mes compétences</span>
 				
 				<div class="skills__container container grid">
-					<div>
 						<!--==================== SKILLS 1====================-->
 						<div class="skills__content skills__open">
 							<div class="skills__header">
@@ -256,17 +253,13 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div>
-					
-					</div>
 				</div>
 			</section>
 			
 			<!--==================== QUALIFICATION ====================-->
 			<section class="qualification section">
 				<h2 class="section__title">Qualification</h2>
-				<span class="section__subtile">My personal journey ? </span>
+				<span class="section__subtitle">My personal journey ? </span>
 				
 				<div class="qualification__container container">
 					<div class="qualification__tabs">
@@ -397,12 +390,12 @@
 			<!--==================== PORTFOLIO ====================-->
 			<section class="portfolio section" id="portfolio">
 				<h2 class="section__title">Portfolio</h2>
-				<span class="section__subtile">Mes projets récent</span>
+				<span class="section__subtitle">Mes projets récent</span>
 				
-				<div class="portfolio__container container">
-					<div>
+				<div class="portfolio__container container swiper-container">
+					<div class="swiper-wrapper">
 						<!--==================== PORTFOLIO 1 ====================-->
-						<div class="portfolio__content grid">
+						<div class="portfolio__content grid swiper-slide">
 							<img src="./img/portofioReservia.png" alt="" class="portfolio__img">
 						
 							<div class="portfolio__data">
@@ -416,8 +409,8 @@
 						</div>
 						
 						<!--==================== PORTFOLIO 2 ====================-->
-						<div class="portfolio__content grid">
-							<img src="./img/portofioReservia.png" alt="" class="portfolio__img">
+						<div class="portfolio__content grid swiper-slide">
+							<img src="./img/OhmyfoodPortfolio.png" alt="" class="portfolio__img">
 						
 							<div class="portfolio__data">
 								<h3 class="portfolio__title">Ohmyfood</h3>
@@ -430,8 +423,8 @@
 						</div>
 						
 						<!--==================== PORTFOLIO 3 ====================-->
-						<div class="portfolio__content grid">
-							<img src="./img/portofioReservia.png" alt="" class="portfolio__img">
+						<div class="portfolio__content grid swiper-slide">
+							<img src="./img/LachouetteagencePortfolio.png" alt="" class="portfolio__img">
 						
 							<div class="portfolio__data">
 								<h3 class="portfolio__title">La chouette agence</h3>
@@ -444,7 +437,7 @@
 						</div>
 						
 						<!--==================== PORTFOLIO 4 ====================-->
-						<div class="portfolio__content grid">
+						<div class="portfolio__content grid swiper-slide">
 							<img src="./img/portofioReservia.png" alt="" class="portfolio__img">
 						
 							<div class="portfolio__data">
@@ -456,23 +449,125 @@
 								</a>
 							</div>
 						</div>
+						
+						<!--==================== PORTFOLIO 5 ====================-->
+						<div class="portfolio__content grid swiper-slide">
+							<img src="./img/portofioReservia.png" alt="" class="portfolio__img">
+						
+							<div class="portfolio__data">
+								<h3 class="portfolio__title">So Pekocko</h3>
+								<p class="portfolio__description">Reservia est une petite entreprise proposant un outil de planification de vacances. Il s'agira d'intégrer la maquette responsive en HTML/CSS de leur site web.</p>
+								<a href="#" class="button button--flex button__small portfolio__button">
+									Demo
+									<i class="uil uil-arrow-right button__icon"></i>
+								</a>
+							</div>
+						</div>
+						
+						<!--==================== PORTFOLIO 6 ====================-->
+						<div class="portfolio__content grid swiper-slide">
+							<img src="./img/portofioReservia.png" alt="" class="portfolio__img">
+						
+							<div class="portfolio__data">
+								<h3 class="portfolio__title">Groupomania</h3>
+								<p class="portfolio__description">Reservia est une petite entreprise proposant un outil de planification de vacances. Il s'agira d'intégrer la maquette responsive en HTML/CSS de leur site web.</p>
+								<a href="#" class="button button--flex button__small portfolio__button">
+									Demo
+									<i class="uil uil-arrow-right button__icon"></i>
+								</a>
+							</div>
+						</div>
+						
+						<!--==================== PORTFOLIO 7 ====================-->
+						<div class="portfolio__content grid swiper-slide">
+							<img src="./img/portofioReservia.png" alt="" class="portfolio__img">
+						
+							<div class="portfolio__data">
+								<h3 class="portfolio__title">Portfolio</h3>
+								<p class="portfolio__description">Reservia est une petite entreprise proposant un outil de planification de vacances. Il s'agira d'intégrer la maquette responsive en HTML/CSS de leur site web.</p>
+								<a href="#" class="button button--flex button__small portfolio__button">
+									Demo
+									<i class="uil uil-arrow-right button__icon"></i>
+								</a>
+							</div>
+						</div>
 					</div>
 					
+					<div class="swiper-button-next">
+						<i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+					</div>
+					
+					<div class="swiper-button-prev">
+						<i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+					</div>
+					
+					<div class="swiper-pagination">
+					
+					</div>
 				</div>
 			
 			</section>
 			
-			<!--==================== PROJECT IN MIND ====================-->
-			<section class="project section">
-			
-			
-			</section>
-			
-			
 			<!--==================== CONTACT ME ====================-->
 			<section class="contact section" id="contact">
+				<h2 class="section__title">Contact</h2>
+				<span class="section__subtitle">Get in touch</span>
 			
-			
+				<div class="contact__container container grid">
+					<div>
+						<div class="contact__information">
+							<i class="uil uil-phone contact__icon"></i>
+							<div>
+								<h3 class="contact__title">Appelez-moi</h3>
+								<span class="contact__subtitle">06 17 96 10 80</span>
+							</div>
+						</div>
+						
+						<div class="contact__information">
+							<i class="uil uil-envelope contact__icon"></i>
+							<div>
+								<h3 class="contact__title">Mail</h3>
+								<span class="contact__subtitle">leolourel@gmail.com</span>
+							</div>
+						</div>
+						
+						<div class="contact__information">
+							<i class="uil uil-map-marker contact__icon"></i>
+							<div>
+								<h3 class="contact__title">Adresse</h3>
+								<span class="contact__subtitle">1 chemin larre goiti, 64310 Ascain</span>
+							</div>
+						</div>
+					</div>
+					
+					<form action="" class="contact__form grid">
+						<div class="contact__inputs grid">
+							<div class="contact__content">
+								<label for="" class="contact__label">Nom</label>
+								<input type="text" class="contact__input">
+							</div>
+							<div class="contact__content">
+								<label for="" class="contact__label">Mail</label>
+								<input type="email" class="contact__input">
+							</div>
+						</div>
+						<div class="contact__content">
+							<label for="" class="contact__label">Sujet</label>
+							<input type="email" class="contact__input">
+						</div>
+						<div class="contact__content">
+							<label for="" class="contact__label">Message</label>
+							<textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+						</div>
+						
+						<div>
+							<a href="#" class="button button--flex">
+								Envoyer
+								<i class="uil uil-message button__icon"></i>
+							</a>
+						</div>
+					</form>
+				</div>
 			</section>
 		</main>
 		
@@ -480,14 +575,46 @@
 		<!--==================== FOOTER ====================-->
 		<footer class="footer">
 		
-		
+			<div class="footer__bg">
+				<div class="footer__container container grid">
+					<div>
+						<h1 class="footer__title">Léo</h1>
+						<span class="footer__subtitle">Frontend developpeur</span>
+					</div>
+					
+					<ul class="footer__links">
+						<li>
+							<a href="#skills" class="footer__link">Skills</a>
+						</li>
+						<li>
+							<a href="#portfolio" class="footer__link">Portfolio</a>
+						</li>
+						<li>
+							<a href="#contact" class="footer__link">Contact</a>
+						</li>
+					</ul>
+					
+					<div class="footer__socials">
+						<a href="https://www.linkedin.com/in/l%C3%A9opold-lourel-96454412a/"  target="_blank" class="footer__social">
+							<i class="uil uil-linkedin-alt"></i>
+						</a>
+						
+						<a href="https://github.com/Leolourel" target="_blank" class="footer__social">
+							<i class="uil uil-github-alt"></i>
+						</a>
+						
+					</div>
+				</div>
+			</div>
 		</footer>
 		
 		<!--==================== SCROLL TOP ====================-->
-		
+		<a href="#" class="scrollup" id="scroll-up">
+			<i class="uil uil-arrow-up scrollup__icon"></i>
+		</a>
 		
 		<!--==================== SWIPER JS ====================-->
-		<script src=""></script>
+		<script src="./js/swiper-bundle.min.js"></script>
 		
 		<!--==================== MAIN JS ====================-->
 		<script src="./js/main.js"></script>
