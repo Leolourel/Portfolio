@@ -152,3 +152,18 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/* TYPE WRITTER */
+
+let messageArray = ["Bonjour, je suis Léo"];
+let textPosition = 0;
+let speed = 100;
+
+typewriter = () => {
+    document.getElementById('message').innerHTML = messageArray[0].substring(0, textPosition) + "<span>\u25ae</span>";
+
+    if(textPosition ++ != messageArray[0].length)
+        setTimeout(typewriter, speed);
+}
+
+window.addEventListener("load",typewriter);

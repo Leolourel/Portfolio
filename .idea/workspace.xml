@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637058470807</updated>
       <workItem from="1637058472255" duration="2657000" />
-      <workItem from="1637061175983" duration="38675000" />
+      <workItem from="1637061175983" duration="41282000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, base du projet et debut header">
       <created>1637061611766</created>
@@ -100,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637582484275</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit avant type writter effect h1">
+      <created>1637593926902</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1637593926902</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +133,7 @@
     <MESSAGE value="Fin media queries, correction nécessaire à experience, titre education et experience display large screen" />
     <MESSAGE value="Maj portfolio, finir de personnaliser" />
     <MESSAGE value="Commit avant modif parti acceuil h1 et image acceuil" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit avant modif parti acceuil h1 et image acceuil" />
+    <MESSAGE value="Commit avant type writter effect h1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit avant type writter effect h1" />
   </component>
 </project>
