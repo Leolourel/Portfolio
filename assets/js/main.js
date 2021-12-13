@@ -160,10 +160,34 @@ let textPosition = 0;
 let speed = 100;
 
 typewriter = () => {
-    document.getElementById('message').innerHTML = messageArray[0].substring(0, textPosition) + "<span>\u25ae</span>";
+    document.getElementById('welcome').innerHTML = messageArray[0].substring(0, textPosition) + "<span>\u25ae</span>";
 
     if(textPosition ++ != messageArray[0].length)
         setTimeout(typewriter, speed);
 }
 
 window.addEventListener("load",typewriter);
+
+
+/*==================== FORM ====================*/
+
+const form = document.getElementById("my-form");
+
+async function handleSubmit(event) {
+    event.preventDefault();
+    const status = document.getElementById("my-form-status");
+    let data = new FormData(event.target);
+    fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+    }).then(response => {
+        status.innerHTML = "Merci votre message à bien été envoyé ";
+        form.reset()
+    }).catch(error => {
+        status.innerHTML = "Oops! il y'a eu un problème lors de l'envoi de votre message"
+    });
+}
+form.addEventListener("submit", handleSubmit)

@@ -2,6 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe3ff27-b836-4469-a3b7-dbca2dab9a26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/Sass/abstracts/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/abstracts/_placeholders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/abstracts/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/compile.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/components/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/components/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/components/_links.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/components/_scroll.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/layout/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/layout/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/layout/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/layout/_home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/layout/_portfolio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/layout/_qualification.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/layout/_skills.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/pages/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/pages/_mediaq.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/portfolio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Sass/watch.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.html" afterDir="false" />
@@ -38,7 +58,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../groupomania" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -50,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637058470807</updated>
       <workItem from="1637058472255" duration="2657000" />
-      <workItem from="1637061175983" duration="41282000" />
+      <workItem from="1637061175983" duration="56058000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, base du projet et debut header">
       <created>1637061611766</created>
@@ -108,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637593926902</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit type writter ok, commit avant migration SASS">
+      <created>1638193064820</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1638193064820</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +161,7 @@
     <MESSAGE value="Maj portfolio, finir de personnaliser" />
     <MESSAGE value="Commit avant modif parti acceuil h1 et image acceuil" />
     <MESSAGE value="Commit avant type writter effect h1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit avant type writter effect h1" />
+    <MESSAGE value="commit type writter ok, commit avant migration SASS" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit type writter ok, commit avant migration SASS" />
   </component>
 </project>
