@@ -172,6 +172,7 @@ window.addEventListener("load",typewriter);
 /*==================== FORM ====================*/
 
 const form = document.getElementById("my-form");
+const buttonSend = document.getElementById('my-form-button');
 
 async function handleSubmit(event) {
     event.preventDefault();
@@ -184,7 +185,8 @@ async function handleSubmit(event) {
             'Accept': 'application/json'
         }
     }).then(response => {
-        status.innerHTML = "Merci votre message à bien été envoyé ";
+        status.innerHTML = "Merci, votre message à bien été envoyé !";
+        buttonSend.remove()
         form.reset()
     }).catch(error => {
         status.innerHTML = "Oops! il y'a eu un problème lors de l'envoi de votre message"

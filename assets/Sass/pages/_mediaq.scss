@@ -125,7 +125,8 @@
     grid-template-columns: .5fr;
   }
   .portfolio__img{
-    width: 320px;
+    max-width: 400px;
+    max-height: 500px;
   }
   .portfolio__content{
     align-items: center;

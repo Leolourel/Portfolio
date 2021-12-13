@@ -614,7 +614,7 @@ body.dark-theme {
 }
 
 .portfolio__img {
-  width: 265px;
+  width: 350px;
   border-radius: 0.5rem;
   justify-self: center;
 }
@@ -948,7 +948,8 @@ body.dark-theme {
   }
 
   .portfolio__img {
-    width: 320px;
+    max-width: 400px;
+    max-height: 500px;
   }
 
   .portfolio__content {

@@ -2,30 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe3ff27-b836-4469-a3b7-dbca2dab9a26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/Sass/abstracts/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/abstracts/_placeholders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/abstracts/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/compile.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/components/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/components/_form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/components/_links.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/components/_scroll.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/layout/_about.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/layout/_contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/layout/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/layout/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/layout/_home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/layout/_portfolio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/layout/_qualification.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/layout/_skills.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/pages/_index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/pages/_mediaq.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/portfolio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Sass/watch.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Sass/layout/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Sass/layout/_portfolio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Sass/pages/_mediaq.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Sass/pages/_mediaq.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/portfolio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/portfolio.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/portfolio.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pdf/LEO CV definitif Calliweb.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pdf/LEOPOLDLOURELCV.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637058470807</updated>
       <workItem from="1637058472255" duration="2657000" />
-      <workItem from="1637061175983" duration="56058000" />
+      <workItem from="1637061175983" duration="63797000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, base du projet et debut header">
       <created>1637061611766</created>
@@ -135,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638193064820</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ajout d'animation">
+      <created>1639406420795</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1639406420795</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +153,7 @@
     <MESSAGE value="Commit avant modif parti acceuil h1 et image acceuil" />
     <MESSAGE value="Commit avant type writter effect h1" />
     <MESSAGE value="commit type writter ok, commit avant migration SASS" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit type writter ok, commit avant migration SASS" />
+    <MESSAGE value="Ajout d'animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout d'animation" />
   </component>
 </project>
